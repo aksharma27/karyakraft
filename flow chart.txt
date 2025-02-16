@@ -1,0 +1,8 @@
+User Flowchart
+Freelancer:
+
+Register/Login → Browse Jobs → Place Bid → Communicate with Client → Complete Job → Receive Payment → Rate Client.
+
+Client:
+
+Register/Login → Post Job → Review Bids → Accept Bid → Communicate with Freelancer → Release Payment → Rate Freelancer.
