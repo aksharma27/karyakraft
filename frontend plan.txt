@@ -1,0 +1,140 @@
+LOGIN/SIGNUP/2FA : 
++-----------------------------------------------------+
+|                   KaryaKraft                        |
++-----------------------------------------------------+
+| Email: [__________________________]                 |
+| Password: [_______________________]                 |
+| [Login] [Register] [Google Login] [LinkedIn Login]  |
++-----------------------------------------------------+
+
+- JOB LISTING/MANAGEMENT : 
++-----------------------------------------------------+
+|                   Job Listings                      |
++-----------------------------------------------------+
+| Search: [__________________________] [Filter]       |
+| --------------------------------------------------- |
+| Job 1: Title, Budget, Skills, [View Details]        |
+| Job 2: Title, Budget, Skills, [View Details]        |
+| Job 3: Title, Budget, Skills, [View Details]        |
++-----------------------------------------------------+
+
+- JOB DETAILS : 
++-----------------------------------------------------+
+|                   Job Details                       |
++-----------------------------------------------------+
+| Title: [Job Title]                                  |
+| Budget: [Job Budget]                                |
+| Description: [Job Description]                      |
+| [Place Bid]                                         |
++-----------------------------------------------------+
+
+-CHAR INTERFACE : 
++-----------------------------------------------------+
+|                   Chat with [Client Name]           |
++-----------------------------------------------------+
+| [Message 1]                                         |
+| [Message 2]                                         |
+| [Message 3]                                         |
+| --------------------------------------------------- |
+| Type a message: [__________________________] [Send] |
++-----------------------------------------------------+
+
+-PAYMENT ; 
+
+
+-REVIEW/RATINGS : 
+
+
+
+
+Micro Frontend Breakdown
+a. Auth Micro Frontend
+Purpose: Handles user authentication and authorization.
+
+Features:
+
+Login and registration forms.
+
+Social login integration (Google, LinkedIn).
+
+Two-Factor Authentication (2FA).
+
+Tech Stack: React.js, Redux, TailwindCSS.
+
+b. Job Management Micro Frontend
+Purpose: Manages job posting and job details.
+
+Features:
+
+Job posting form for clients.
+
+Job listing page with filters (e.g., budget, skills, location).
+
+Job details page.
+
+Tech Stack: React.js, Redux, TailwindCSS.
+
+c. Bidding Micro Frontend
+Purpose: Handles the bidding system.
+
+Features:
+
+Bid submission form for freelancers.
+
+Bid listing page for clients.
+
+Bid status tracking (Pending, Accepted, Rejected).
+
+Tech Stack: React.js, Redux, TailwindCSS.
+
+d. Messaging Micro Frontend
+Purpose: Enables real-time communication.
+
+Features:
+
+Real-time chat interface.
+
+File sharing (e.g., PDFs, images).
+
+Chat translation (optional).
+
+Tech Stack: React.js, WebSockets, TailwindCSS.
+
+e. Payment Micro Frontend
+Purpose: Manages payment processing.
+
+Features:
+
+Payment form for clients.
+
+Payment history page.
+
+Multi-currency support.
+
+Tech Stack: React.js, Redux, TailwindCSS.
+
+f. Review and Rating Micro Frontend
+Purpose: Handles reviews and ratings.
+
+Features:
+
+Review submission form.
+
+Rating display (e.g., stars, average rating).
+
+Review replies (optional).
+
+Tech Stack: React.js, Redux, TailwindCSS.
+
+g. Notification Micro Frontend
+Purpose: Displays notifications.
+
+Features:
+
+Notification center (email and UI alerts).
+
+Custom notification preferences.
+
+Push notifications (optional).
+
+Tech Stack: React.js, Redux, TailwindCSS.
