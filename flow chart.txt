@@ -6,3 +6,93 @@ Register/Login → Browse Jobs → Place Bid → Communicate with Client → Com
 Client:
 
 Register/Login → Post Job → Review Bids → Accept Bid → Communicate with Freelancer → Release Payment → Rate Freelancer.
+
+a. Auth Service
+Purpose: Handles user authentication and authorization.
+
+Features:
+
+User registration and login (JWT, OAuth2.0).
+
+Role-based access control (Freelancer, Client, Admin).
+
+Password encryption and secure token management.
+
+Tech Stack: Spring Boot, JWT, OAuth2.0.
+
+b. Job Management Service
+Purpose: Manages job posting, job details, and job status.
+
+Features:
+
+Clients can create, update, and delete job posts.
+
+Freelancers can view open jobs.
+
+Job status tracking (Open, In Progress, Closed).
+
+Tech Stack: Spring Boot, PostgreSQL.
+
+c. Bidding Service
+Purpose: Handles the bidding system for freelancers.
+
+Features:
+
+Freelancers can place bids on jobs.
+
+Clients can accept or reject bids.
+
+Bid status tracking (Pending, Accepted, Rejected).
+
+Tech Stack: Spring Boot, PostgreSQL.
+
+d. Messaging Service
+Purpose: Enables real-time communication between clients and freelancers.
+
+Features:
+
+Real-time chat using WebSockets.
+
+Message history storage.
+
+Notifications for new messages.
+
+Tech Stack: Spring Boot, WebSockets, Redis (for caching messages).
+
+e. Payment Service
+Purpose: Manages payment processing and escrow system.
+
+Features:
+
+Escrow-based payment system for secure transactions.
+
+Integration with payment gateways (Stripe, Razorpay).
+
+Payment status tracking (Pending, Completed, Refunded).
+
+Tech Stack: Spring Boot, Stripe/Razorpay API.
+
+f. Review and Rating Service
+Purpose: Handles reviews and ratings for freelancers and clients.
+
+Features:
+
+Clients can rate freelancers after job completion.
+
+Freelancers can rate clients.
+
+Average rating calculation and display.
+
+Tech Stack: Spring Boot, PostgreSQL.
+
+g. Notification Service
+Purpose: Sends notifications via email and UI alerts.
+
+Features:
+
+Email notifications for job updates, bid status, and messages.
+
+UI alerts for real-time updates.
+
+Tech Stack: Spring Boot, AWS SNS (Simple Notification Service).
+
